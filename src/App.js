@@ -25,7 +25,7 @@ function App() {
   };
   return (
     <div className="bg-gradient-to-t from-blue-600 to-green-700 flex justify-center items-center h-screen w-screen">
-      <div className="h-[30rem] w-[28rem] p-16 roun bg-white flex justify-center  items-center flex-col">
+      <div className="h-[30rem] w-[28rem] p-16 rounded-md bg-white flex justify-center  items-center flex-col">
         <h1 className="text-3xl font-bold text-blue-600 my-[30px]">
           {state ? 'Sign Up' : 'Login'}
         </h1>
